@@ -26,8 +26,8 @@ start_time = time.time()
 xzhengfu = +
 yxhengfu = +`
 
-xmotol = StepperMotorController(4,5,6)
-ymotol = StepperMotorController(1,2,3)
+xmotol = StepperMotorController(1,2,3)
+ymotol = StepperMotorController(4,5,6)
 
 xmotol.move(0) #转为初始值
 ymotol.move(0) #转为初始值
@@ -73,6 +73,7 @@ while True:
 
     
     ####################################################################################################################
+    
     
     ret, frame = capture.read()
     

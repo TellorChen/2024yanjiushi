@@ -23,6 +23,7 @@ capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 frame_count = 0
 start_time = time.time()
 '''
+111
 xzhengfu = +
 yxhengfu = +`
 
